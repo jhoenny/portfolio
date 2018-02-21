@@ -1,0 +1,86 @@
+
+h1 {
+	font-family: arial;
+	font-size: 72px;
+	text-align: center;
+	color: white;
+	letter-spacing: -2.5px;
+}
+
+h2 {
+	font-family: arial;
+	font-size: 36px;
+	text-align: center;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	display: inline;
+	padding: 10px;
+}
+
+h3 {
+	font-family: arial;
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+}
+
+.goback {
+	margin-top: 1%;
+
+}
+
+
+.start {
+	padding: 70px;
+	text-align:center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.getworld {
+	padding: 70px;
+	text-align:center;
+}
+.getworld > h1 {
+	font-size: 50px;
+}
+
+/*.world1 > img {
+  width:35%;
+  height:35%;
+}*/
+
+.world1 > img {
+	max-width: 480px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:20px auto;
+	opacity: 0;
+}
+
+.world1 {
+	position: fixed;
+	display: block;
+	margin-left: 30%;
+	margin-right: auto;
+}
+
+.world1 > img:hover { 
+   opacity: 100;
+}
+
+.narrative1 > h3 {
+	font-size: 10px;
+}
+
+.narrative1 {
+	margin-left: 43%;
+	margin-top: 23%;
+}
+
