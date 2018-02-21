@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background: #FBFBF6;
+}
+
+.wrapper {
+	width: 1270px;
+}
+
+.purpleheader {
+	width: 500px 500px;
+	height: 200px;
+  padding: 50px 16px;
+  background: #D0B7F5;
+  /*margin: 10;*/
+}
+
+.jlogo {
+	width:130px;
+	height: 130px;
+	/*background-color: white;*/
+	position: absolute;
+	left: 580px;
+	top: 75px;
+}
+
+.navigationbar {
+	font-size: 16px;
+	color: white;
+	float: left;
+	position: absolute;
+	left: 556px;
+    top: 240px;
+}
+
+li {
+    display: inline;
+    float: left;
+    color: white;
+}
+
+li a:hover {
+    background-color: #99ccff;
+}
+
+li {
+    border-right: 1px solid white;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+
+a {
+	font-family: helvetica;
+	text-decoration: none;
+	display: block;
+    padding: 8px;
+    color: white;
+}
+
+
+.pagebodyhome {
+	width: 400px;
+	font-size: 30px;
+	position: absolute;
+	top: 400px;
+	left: 445px;
+	text-align: center;
+	color: white;
+
+}
+
+h1 {
+	font-family: helvetica;
+	kerning: 100px;
+	color:#330066;
+}
+
+p {
+	font-family: helvetica;
+}
+
+.jlogo:hover { 
+   opacity: 0.35;
+}
+
+.core {
+	border-style: solid;
+	color: #0047b3;
+	font-family: helvetica;
+	letter-spacing: -2px;
+}
+
+.core:hover { 
+   opacity: 0.5;
+}
+
