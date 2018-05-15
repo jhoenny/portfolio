@@ -102,3 +102,19 @@ p {
    opacity: 0.5;
 }
 
+
+.about {
+/*	width: 700px;*/
+	/*position: absolute;*/
+	margin-top: 30%;
+	top: 400px;
+	left: 445px;
+	text-align: center;
+/*	color: white;*/
+
+}
+
+.about h1 {
+	font-size: 26px;
+
+}
