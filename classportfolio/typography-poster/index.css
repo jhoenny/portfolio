@@ -1,0 +1,83 @@
+
+.wrapper {
+	width:1000px;
+	height:700px;
+}
+
+.wrapper > img {
+	width: 200%;
+	height: 200%;
+	margin:auto;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	margin-top: -30%;
+	margin-left: 20%;
+	letter-spacing: 5px;
+	font-weight: 300;
+}
+
+h2 {
+	width: 700px;
+	font-size: 1em;
+	font-family: 'Barlow', sans-serif;
+	color: white;
+	margin-top: -2%;
+	margin-left: 20%;
+	line-height: 1.5em;
+}
+
+/*p {
+	width: 300px;
+	font-size: 1em;
+	font-family: 'Barlow', sans-serif;
+	color: black;
+	line-height: 1.5em;
+	text-indent: 2em;
+	margin-top: -120%;
+	margin-left: 98%;
+}*/
+
+
+.p1 {
+	width: 300px;
+	font-size: 1em;
+	font-family: 'Barlow', sans-serif;
+	color: black;
+	line-height: 1.5em;
+	text-indent: 2em;
+	margin-top: -120%;
+	margin-left: 11%;
+	display: block;
+}
+
+.p2 {
+	width: 300px;
+	font-size: 1em;
+	font-family: 'Barlow', sans-serif;
+	color: black;
+	line-height: 1.5em;
+	text-indent: 2em;
+	margin-top: -26%;
+	margin-left: 45%;
+	display: block;
+}
+
+.p3 {
+	width: 300px;
+	font-size: 1em;
+	font-family: 'Barlow', sans-serif;
+	color: black;
+	line-height: 1.5em;
+	text-indent: 2em;
+	margin-top: -33%;
+	margin-left: 80%;
+	display: block;
+}
+
+.paragraphs {
+	margin-top: 10%;
+}

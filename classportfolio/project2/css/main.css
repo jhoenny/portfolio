@@ -1,0 +1,524 @@
+
+/*Overall*/
+
+html{
+
+}
+
+body{
+	width: 100%;
+	/*height: 1024px;*/
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+.logo{
+	width: 500px;
+	display: inline-block;
+}
+
+.kendilogo {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	background-color: #F3DCC6;
+	float: left;
+	border-radius: 100%;
+	background-image: url("../img/kendilogo.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*.logo img {
+	float:left;
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	border-radius: 100%;
+	background-color: orange;
+}*/
+
+.logo h1 {
+	padding: 6%;
+	display: inline-block;
+	float:left;
+/*	font-family: 'Quicksand', sans-serif;*/
+	/* kendi’s: */
+	font-family: Quicksand-Medium;
+	font-size: 50px;
+	color: #855A4C;
+	line-height: 100px;
+	margin-top: -2%;
+}
+
+
+.blobs {
+	margin-top: 5%;
+	margin-left: 20%;
+}
+
+.chocolateblob {
+	width: 23%;
+	height: 450px;
+/*	height: 20%;*/
+	border-radius: 100%;
+	display: inline-block;
+/* Oval 6: */
+	transform: rotate(27deg);
+	background: #F6EEB9;
+	box-shadow: 0px 2px 9px 2px rgba(0,0,0,0.50);
+}
+
+.gummiesblob {
+	width: 30%;
+	height: 250px;
+	border-radius: 100%;
+	display: inline-block;
+/*	background-color: green;*/
+	/* Oval 6: */
+	transform: rotate(18deg);
+	background: #C9F6B9;
+	box-shadow: 0px 2px 9px 2px rgba(0,0,0,0.50);
+}
+
+.jellybeansblob {
+	float: left;
+	margin-left: 20%;
+	margin-top: -50%;
+	width: 30%;
+	height: 250px;
+	border-radius: 100%;
+	display: inline-block;
+/* Oval 6: */
+	transform: rotate(340deg);
+	background: #CDB9F6;
+	box-shadow: 0px 2px 9px 2px rgba(0,0,0,0.50);
+}
+
+.jawbreakersblob {
+	width: 12%;
+	height: 200px;
+	border-radius: 100%;
+	display: inline-block;
+/* Oval 6: */
+	transform: rotate(15deg);
+	background: #F6B9B9;
+	box-shadow: 0px 2px 9px 2px rgba(0,0,0,0.50);
+}
+
+.hometext {
+	margin-left: 30%;
+	max-width: 480px;
+}
+
+
+.minilogo {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: #F3DCC6;
+	float: right;
+	border-radius: 100%;
+	background-image: url("../img/kendilogo.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+/*	margin-top: 1%;*/
+}
+
+
+.candywrapper {
+	width: 100%;
+	padding: 1%;
+}
+
+.video {
+	margin-left: 25%;
+}
+
+/*Typography*/
+
+h1{
+font-family: Quicksand-Medium;
+	font-size: 80px;
+	color: #855A4C;
+	line-height: 100px;
+}
+
+h2{
+/* Lorem Ipsum: */
+font-family: Avenir-BlackOblique;
+font-size: 50px;
+color: #583603;
+line-height: 68px;
+}
+
+h3 {
+font-family: Quicksand-Regular;
+font-size: 72px;
+color: #583603;
+line-height: 90px;
+}
+
+h4 {
+	/* blueberry: */
+font-family: Quicksand-Regular;
+font-size: 36px;
+color: #583603;
+line-height: 45px;
+}
+
+
+p{
+/* dolor sit amet, cons: */
+font-family: Helvetica;
+font-size: 20px;
+color: #583603;
+line-height: 24px;
+}
+
+ blockquote{
+font-family: Avenir-BlackOblique;
+font-size: 36px;
+color: #583603;
+
+    }
+
+
+/* Chocolate Layout*/
+
+.nav{
+/*	width: 50%;*/
+	width: 900px;
+	display: block;
+	margin:0 auto;
+}
+
+.button-gen{
+	width: 225px;
+	height: 4%;
+	/*padding: 1%;*/
+	text-align: center;
+	border-radius: 8px;
+	display: inline-block;
+	/*margin-top: 15%;
+	margin-left: 20%;*/
+}
+
+.chocolatemintbutton {
+background: #A1DFA6;
+}
+
+.chocolatecaramelbutton {
+background: #DFA164;
+}
+
+.chocolatedarkbutton {
+background: #BFB0CA;
+}
+
+.chocolatestrawberrybutton {
+background: #EDB0C3;
+}
+
+/*---------------------*/
+
+
+
+/* Gummies Layout*/
+
+.gummiesblueberrybutton {
+background: #A2BBE3;
+}
+
+.gummiescherrybutton {
+background: #EB8D8D;
+}
+
+.gummieslemonbutton {
+background: #F1EB88;
+}
+
+.gummiesgrapebutton {
+background: #BFB0CA;
+}
+
+/*---------------------*/
+
+
+/* JellyBeans Layout*/
+
+.jellybeansblueberrybutton {
+width: 16%;
+height: 6%;
+/*padding: 1%;*/
+text-align: center;
+background: #A2BBE3;
+border-radius: 8px;
+display: inline-block;
+margin-top: 15%;
+margin-left: 20%;
+}
+
+.jellybeanscherrybutton {
+width: 12%;
+height: 6%;
+/*padding: 1%;*/
+text-align: center;
+background: #EB8D8D;
+border-radius: 8px;
+display: inline-block;
+}
+
+.jellybeanslemonbutton {
+width: 12%;
+height: 6%;
+/*padding: 1%;*/
+text-align: center;
+background: #F1EB88;
+border-radius: 8px;
+display: inline-block;
+}
+
+.jellybeanspeachbutton {
+width: 12%;
+height: 6%;
+/*padding: 1%;*/
+text-align: center;
+background: #F2D4BE;
+border-radius: 8px;
+display: inline-block;
+}
+
+/*---------------------*/
+
+
+/* Jawbreakers Layout*/
+
+.jawbreakerslemonbutton {
+width: 12%;
+height: 6%;
+/*padding: 1%;*/
+text-align: center;
+background: #F1EB88;
+border-radius: 8px;
+display: inline-block;
+margin-top: 15%;
+margin-left: 20%;
+}
+
+.jawbreakerswatermelonbutton {
+width: 18%;
+height: 6%;
+/*padding: 1%;*/
+text-align: center;
+background: #A4E3A2;
+border-radius: 8px;
+display: inline-block;
+}
+
+.jawbreakersgrapebutton {
+width: 12%;
+height: 6%;
+/*padding: 1%;*/
+text-align: center;
+background: #BFB0CA;
+border-radius: 8px;
+display: inline-block;
+}
+
+
+/*---------------------*/
+
+
+/*-------bottom nav-------*/
+
+.chocolateminiblob {
+width: 8%;
+height: 3%;
+background: #A1DFA6;
+border-radius: 100%;
+display: inline-block;
+margin-top: 20%;
+margin-left: 32%;
+}
+
+.gummiesminiblob {
+width: 8%;
+height: 3%;
+background: #F1EB88;
+border-radius: 100%;
+display: inline-block;
+}
+
+.jellybeansminiblob {
+width: 8%;
+height: 3%;
+background: #BFB0CA;
+border-radius: 100%;
+display: inline-block;
+}
+
+.jawbreakersminiblob {
+width: 8%;
+height: 3%;
+background: #EB8D8D;
+border-radius: 100%;
+display: inline-block;
+}
+
+/*---------------------*/
+
+
+
+
+
+/*----------animations-----------*/
+
+#blobsshake1 {
+	animation: shake 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes shake {
+	from, to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	10%, 30%, 50%, 70%, 90% {
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	20%, 40%, 60%, 80% {
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}
+
+#blobsshake2 {
+	animation: shakee 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes shakee {
+	from, to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	10%, 30%, 50%, 70%, 90% {
+		-webkit-transform: translate3d(0, -10px, 0);
+		transform: translate3d(0, -10px, 0);
+	}
+
+	20%, 40%, 60%, 80% {
+		-webkit-transform: translate3d(0, -10px, 0);
+		transform: translate3d(0, -10px, 0);
+	}
+}
+}
+
+#blobsshake3 {
+	animation: shake 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+
+
+#blobsshake4 {
+	animation: shake 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+
+/*---------------------*/
+
+
+
+
+/*mobile*/
+@media screen and (max-width: 660px){ 
+
+	h1{
+	font-size: 50px;
+	line-height: 100px;
+}
+
+h2{
+font-size: 30px;
+line-height: 68px;
+}
+
+h3 {
+font-size: 50px;
+line-height: 90px;
+}
+
+h4 {
+font-size: 20px;
+line-height: 45px;
+}
+
+
+p{
+font-size: 15px;
+line-height: 24px;
+}
+
+.kendilogo {
+	width: 80px;
+	height: 80px;
+}
+
+
+.logo h1 {
+	margin-top: -8%;
+	font-size: 48px;
+}
+
+.minilogo {
+	width: 70px;
+	height: 70px;
+/*	margin-top: 1%;*/
+}
+
+.hometext {
+	margin-left: 10%;
+	max-width: 280px;
+}
+
+.chocolateblob {
+	width: 23%;
+	height: 250px;
+}
+
+.gummiesblob {
+	width: 30%;
+	height: 150px;
+}
+
+.jellybeansblob {
+	width: 30%;
+	height: 150px;
+	margin-top: -30%;
+}
+
+.jawbreakersblob {
+	width: 12%;
+	height: 100px;
+}
+
+.video {
+	margin-left: 0%;
+}
+
+ }
